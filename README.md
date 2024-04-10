@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 # quiz-website
 # quiz
 # quiz
+# quiz-website-v1

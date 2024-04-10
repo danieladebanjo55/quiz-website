@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+}
+
+body {
+  height: 100vh;
+  font-family: 'poppins';
+  background: linear-gradient(rgb(202, 123, 199) 10%, rgb(242, 25, 242));
+}
