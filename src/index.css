@@ -6,6 +6,13 @@
 
 body {
   height: 100vh;
-  font-family: 'poppins';
-  background: linear-gradient(rgb(202, 123, 199) 10%, rgb(242, 25, 242));
+  font-family: "poppins";
+  background-color: hsla(280, 46%, 56%, 1);
+  background-image: radial-gradient(
+      at 14% 39%,
+      hsla(346, 94%, 77%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 77% 78%, hsla(236, 67%, 60%, 1) 0px, transparent 50%),
+    radial-gradient(at 83% 25%, hsla(268, 69%, 78%, 1) 0px, transparent 50%);
 }
