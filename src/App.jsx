@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Quiz from "./Components/Quiz/Quiz";
 
-import logo from "../../quiz-website/src/assets/fhg.png";
+import logo from "../src/assets/fhg.png";
 
 function App() {
   const [begin, setBegin] = useState(true);
