@@ -111,6 +111,7 @@ function Quiz() {
       )}
       {result ? (
         <>
+          <h2>Nice Work!</h2>
           <h2>
             You scored {score} out of {data.length}
           </h2>

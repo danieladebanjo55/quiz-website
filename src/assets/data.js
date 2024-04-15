@@ -1,12 +1,172 @@
 export const data = [
   {
-    "question": "What is the term for the practice of promoting a product or service through individuals who act as advocates?",
-    "option1": "Affiliate marketing",
-    "option2": "Influencer marketing",
-    "option3": "Referral marketing",
-    "option4": "Viral marketing",
+    "question": "What is the full meaning of GNLD?",
+    "option1": "Golden NeoLife International",
+    "option2": "Golden NeoLife Dynamite International",
+    "option3": "Golden NeoLife Diamite International",
+    "option4": "Neolife International",
     "ans": 3
   },
+  {
+    "question": "Who founded GNLD, and what year?",
+    "option1": "Jerry Nightingale, 1988",
+    "option2": "Kendra Brasfield, 2001",
+    "option3": "Jerry Brasfield, 1958",
+    "option4": "Jerry Brassfield, 1958",
+    "ans": 4
+  },
+  {
+    "question": "How many status do we have in GNLD?",
+    "option1": "17",
+    "option2": "19",
+    "option3": "16",
+    "option4": "15",
+    "ans": 1
+  },
+  {
+    "question": "Which of the following is not part of neolife core values?",
+    "option1": "Absolute & Integrity",
+    "option2": "People are Equal",
+    "option3": "Products That Works",
+    "option4": "Equal Opportunity For All",
+    "ans": 2
+  },
+  {
+    "question": "Which of the following is not a neolife product?",
+    "option1": "Vitamin E",
+    "option2": "Chealated All C",
+    "option3": "Tre-En-En",
+    "option4": "E Calcium",
+    "ans": 4
+  },
+  {
+    "question": "What carries 30% in the healthy food pyramid?",
+    "option1": "Cabohydrates",
+    "option2": "Protein",
+    "option3": "Whole Grains",
+    "option4": "Fruits & Vegetables",
+    "ans": 3
+  },
+  {
+    "question": "Which one has a maximum of 25%",
+    "option1": "QPV",
+    "option2": "NDB",
+    "option3": "SVB",
+    "option4": "DDB",
+    "ans": 3
+  },
+  {
+    "question": "What is present in a healthy cell that is absent in an unhealthy cell?",
+    "option1": "Lipids & Steriods",
+    "option2": "Nucleus",
+    "option3": "Toxins",
+    "option4": "Amoeba",
+    "ans": 1
+  },
+  {
+    "question": "What is QPV?",
+    "option1": "Quality Point Value",
+    "option2": "Quanlified Pointed Value",
+    "option3": "Quatity Point Value",
+    "option4": "Qualified Point Value",
+    "ans": 4
+  },
+  {
+    "question": "Who founded FHG? and what year?",
+    "option1": "Mr Jagunmolu Saliu, Ilesha",
+    "option2": "Mr Jagunmolu Abdul-Fatai, Ilesha",
+    "option3": "Mr Jagun Samson, Ilesha",
+    "option4": "Mr Jagunmolu Abdul-Fatai, Oshogbo",
+    "ans": 2
+  },
+  {
+    "question": "What's the meaning of FHG?",
+    "option1": "Faith Heroic Generation",
+    "option2": "FaitHeroic Generation",
+    "option3": "Faith Healing Generation",
+    "option4": "Father Helping Generation",
+    "ans": 2
+  },
+  {
+    "question": "One of the things GNLD values the most is?",
+    "option1": "Making Money",
+    "option2": "People",
+    "option3": "QPV",
+    "option4": "Step-Up",
+    "ans": 2
+  },
+  {
+    "question": "Some of the thinngs that damages our cell is?",
+    "option1": "Grease",
+    "option2": "NaCl",
+    "option3": "Vitamin E",
+    "option4": "Garri",
+    "ans": 1
+  },
+  {
+    "question": "Which of the following is not a Neolife Incentive?",
+    "option1": "DDB",
+    "option2": "LBD",
+    "option3": "TI",
+    "option4": "NDB",
+    "ans": 2
+  },
+  {
+    "question": "What's the status with 1000QPV?",
+    "option1": "Qualified Executive Manager",
+    "option2": "Qualified Senior Manager",
+    "option3": "Qualified Manager",
+    "option4": "Qualified Director",
+    "ans": 2
+  },
+  {
+    "question": "What's the status with 3000QPV?",
+    "option1": "Qualified Executive Manager",
+    "option2": "Qualified Senior Manager",
+    "option3": "Qualified Manager",
+    "option4": "Qualified Director",
+    "ans": 1
+  },
+  {
+    "question": "What's the status with 10,000QPV?",
+    "option1": "Qualified Executive Manager",
+    "option2": "Qualified Senior Manager",
+    "option3": "None",
+    "option4": "Qualified Director",
+    "ans": 3
+  },
+  {
+    "question": "Who bridges you with the business?",
+    "option1": "GAP",
+    "option2": "Upline",
+    "option3": "Mentor",
+    "option4": "Leader",
+    "ans": 1
+  },
+  {
+    "question": "Who are world team members?",
+    "option1": "Saphire to 2 Ruby",
+    "option2": "Emerald to 3 Ruby",
+    "option3": "Saphire to 3 Ruby",
+    "option4": "Saphire to 4 Ruby",
+    "ans": 3
+  },
+  {
+    "question": "Who are president team members?",
+    "option1": "3 Ruby to 5 Diamond",
+    "option2": "4 Ruby to 5 Diamond",
+    "option3": "2 Ruby to 5 Diamond",
+    "option4": "1 Diamond to 5 Diamond",
+    "ans": 2
+  },
+  {
+    "question": "Which of the following is not part of GNLD TI?",
+    "option1": "Leadership Submit",
+    "option2": "World Team Vacation",
+    "option3": "Presidential Pursuit",
+    "option4": "Emerald's School",
+    "ans": 3
+  }, //Email Marketing Starts
   {
     "question": "What is the primary purpose of a lead magnet in email marketing?",
     "option1": "To increase website traffic",

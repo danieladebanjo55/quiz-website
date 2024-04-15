@@ -18,8 +18,9 @@ function App() {
             <img src={logo} alt="logo" className="logo" />
             <h1>Welcome To Your FHG Training Exam</h1>
             <h2 style={{ textAlign: "center" }}>
-              You're about to start Your Exam
+              You have 35 mins to answer 50 questions.
             </h2>
+            <h2>Good Luck!</h2>
             <button onClick={startTest}>Get Started</button>
           </div>
         </>
