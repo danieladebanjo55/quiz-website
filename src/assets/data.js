@@ -45,7 +45,7 @@ export const data = [
     "option2": "Protein",
     "option3": "Whole Grains",
     "option4": "Fruits & Vegetables",
-    "ans": 3
+    "ans": 4
   },
   {
     "question": "Which one has a maximum of 25%",
@@ -72,7 +72,7 @@ export const data = [
     "ans": 4
   },
   {
-    "question": "Who founded FHG? and what year?",
+    "question": "Who founded FHG? and where?",
     "option1": "Mr Jagunmolu Saliu, Ilesha",
     "option2": "Mr Jagunmolu Abdul-Fatai, Ilesha",
     "option3": "Mr Jagun Samson, Ilesha",
@@ -165,7 +165,7 @@ export const data = [
     "option2": "World Team Vacation",
     "option3": "Presidential Pursuit",
     "option4": "Emerald's School",
-    "ans": 3
+    "ans": 4
   }, //Email Marketing Starts
   {
     "question": "What is the primary purpose of a lead magnet in email marketing?",

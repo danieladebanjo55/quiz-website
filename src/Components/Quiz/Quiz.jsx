@@ -1,12 +1,11 @@
 import React, { useRef, useState } from "react";
-
 import { data } from "../../assets/data";
-
 import "./Quiz.css";
 
 function Quiz() {
   let [index, setIndex] = useState(0);
-  let [question, setQuestion] = useState(data[index]);
+  let [questions, setQuestions] = useState(shuffleArray(data));
+  let [question, setQuestion] = useState(questions[index]);
   let [lock, setLock] = useState(false);
   let [score, setScore] = useState(0);
   let [result, setResult] = useState(false);
@@ -17,6 +16,11 @@ function Quiz() {
   let Option4 = useRef(null);
 
   let option_array = [Option1, Option2, Option3, Option4];
+
+  // Function to shuffle the array
+  function shuffleArray(array) {
+    return [...array].sort(() => Math.random() - 0.5);
+  }
 
   const checkAns = (e, ans) => {
     if (lock === false) {
@@ -34,24 +38,23 @@ function Quiz() {
 
   const next = () => {
     if (lock === true) {
-      if (index == data.length - 1) {
+      if (index === questions.length - 1) {
         setResult(true);
         return 0;
       }
       setIndex(++index);
-      setQuestion(data[index]);
+      setQuestion(questions[index]);
       setLock(false);
-      option_array.map((option) => {
+      option_array.forEach((option) => {
         option.current.classList.remove("wrong");
         option.current.classList.remove("correct");
-        return null;
       });
     }
   };
 
   const reset = () => {
     setIndex(0);
-    setQuestion(data[0]);
+    setQuestions(shuffleArray(data));
     setScore(0);
     setLock(false);
     setResult(false);
@@ -105,7 +108,7 @@ function Quiz() {
           </ul>
           <button onClick={next}>Next</button>
           <div className="index">
-            {index + 1} of {data.length} questions.
+            {index + 1} of {questions.length} questions.
           </div>
         </>
       )}
@@ -113,7 +116,7 @@ function Quiz() {
         <>
           <h2>Nice Work!</h2>
           <h2>
-            You scored {score} out of {data.length}
+            You scored {score} out of {questions.length}
           </h2>
           <button onClick={reset}>Reset</button>
         </>
